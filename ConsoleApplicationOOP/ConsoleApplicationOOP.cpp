@@ -11,6 +11,36 @@
 #include "Chipsi.h"
 
 
+class User
+{
+private:
+    int _age;
+    int _growth;
+    string _name;
+public:
+    
+    int getAge() 
+    {
+        return _age;
+    }
+
+    int getGrowth()
+    {
+        return _growth;
+    }
+
+    string getName() 
+    {
+        return _name;
+    }
+
+    void ToString() 
+    {
+        cout << " Age: "<<getAge()<< " Growth: "<< getGrowth()<<" Name: "<< getName();
+    }
+};
+
+
 
 int main()
 {
